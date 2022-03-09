@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ứng dụng máy tính</title>
+</head>
+<body>
+<form>
+    <input type="text" id="a">
+    <input type="text" id="b">
+    <br>
+    <br>
+    <button onclick="q()">Addition(+)</button>
+    <button onclick="w()">Subtraction(-)</button>
+    <button onclick="e()">Multiplication(*)</button>
+    <button onclick="r()">Division(/)</button>
+</form>
+<script>
+    let Addition= a + b;
+    let Subtraction= a - b;
+    let Multiplication= a * b;
+    let Division= a / b;
+   function q(){
+       document.write('tổng' +Addition)
+   }
+    function w(){
+        document.write('hiệu' +Subtraction)
+    }
+    function e(){
+        document.write('tích' +Multiplication)
+    }
+    function r(){
+        document.write('thương' +Division)
+    }
+</script>
+</body>
+</html>
